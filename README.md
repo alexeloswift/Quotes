@@ -6,6 +6,8 @@ I built an app using a UI framework of my choice and I display these quotes. Eac
 and the screen is updated to show the next quote. At the end of the slideshow, the view loops back to the first slide.
 
 ## Screen Recording
-
+<div align="center"> 
+![Quotes](https://user-images.githubusercontent.com/88692767/199358677-488707bc-07aa-4932-80b3-22e067fb5cb0.gif)
+</div>
 
 
