@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		FD8A8C792910C15200849550 /* QuotesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8A8C782910C15200849550 /* QuotesApp.swift */; };
-		FD8A8C7B2910C15200849550 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8A8C7A2910C15200849550 /* ContentView.swift */; };
 		FD8A8C7D2910C15300849550 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD8A8C7C2910C15300849550 /* Assets.xcassets */; };
 		FD8A8C802910C15300849550 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD8A8C7F2910C15300849550 /* Preview Assets.xcassets */; };
 		FD8A8C8A2910C15300849550 /* QuotesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8A8C892910C15300849550 /* QuotesTests.swift */; };
 		FD8A8C942910C15300849550 /* QuotesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8A8C932910C15300849550 /* QuotesUITests.swift */; };
 		FD8A8C962910C15300849550 /* QuotesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8A8C952910C15300849550 /* QuotesUITestsLaunchTests.swift */; };
+		FD8A8CA32910C1F400849550 /* QuotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8A8CA22910C1F400849550 /* QuotesView.swift */; };
+		FD8A8CA52910C20700849550 /* QuotesViewmodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8A8CA42910C20700849550 /* QuotesViewmodel.swift */; };
+		FD8A8CA92910E15400849550 /* QuoteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8A8CA82910E15400849550 /* QuoteModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,6 @@
 /* Begin PBXFileReference section */
 		FD8A8C752910C15200849550 /* Quotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD8A8C782910C15200849550 /* QuotesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesApp.swift; sourceTree = "<group>"; };
-		FD8A8C7A2910C15200849550 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FD8A8C7C2910C15300849550 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD8A8C7F2910C15300849550 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FD8A8C852910C15300849550 /* QuotesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuotesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +45,9 @@
 		FD8A8C8F2910C15300849550 /* QuotesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuotesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD8A8C932910C15300849550 /* QuotesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesUITests.swift; sourceTree = "<group>"; };
 		FD8A8C952910C15300849550 /* QuotesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FD8A8CA22910C1F400849550 /* QuotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesView.swift; sourceTree = "<group>"; };
+		FD8A8CA42910C20700849550 /* QuotesViewmodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesViewmodel.swift; sourceTree = "<group>"; };
+		FD8A8CA82910E15400849550 /* QuoteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +99,9 @@
 			isa = PBXGroup;
 			children = (
 				FD8A8C782910C15200849550 /* QuotesApp.swift */,
-				FD8A8C7A2910C15200849550 /* ContentView.swift */,
+				FD8A8CA22910C1F400849550 /* QuotesView.swift */,
+				FD8A8CA42910C20700849550 /* QuotesViewmodel.swift */,
+				FD8A8CA82910E15400849550 /* QuoteModel.swift */,
 				FD8A8C7C2910C15300849550 /* Assets.xcassets */,
 				FD8A8C7E2910C15300849550 /* Preview Content */,
 			);
@@ -143,6 +149,8 @@
 			dependencies = (
 			);
 			name = Quotes;
+			packageProductDependencies = (
+			);
 			productName = Quotes;
 			productReference = FD8A8C752910C15200849550 /* Quotes.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +223,8 @@
 				Base,
 			);
 			mainGroup = FD8A8C6C2910C15200849550;
+			packageReferences = (
+			);
 			productRefGroup = FD8A8C762910C15200849550 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,8 +267,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD8A8C7B2910C15200849550 /* ContentView.swift in Sources */,
+				FD8A8CA92910E15400849550 /* QuoteModel.swift in Sources */,
+				FD8A8CA52910C20700849550 /* QuotesViewmodel.swift in Sources */,
 				FD8A8C792910C15200849550 /* QuotesApp.swift in Sources */,
+				FD8A8CA32910C1F400849550 /* QuotesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
